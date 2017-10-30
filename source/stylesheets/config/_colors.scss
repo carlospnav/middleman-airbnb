@@ -2,9 +2,17 @@
 
 // For example:
 $red: #EE5F5B;
+$heart-red: #D23333;
 $blue: #469AE0;
 $yellow: #FDB631;
 $orange: #E67E22;
 $green: #32B796;
 $gray: #000000;
-$light-gray: #F4F4F4;
+$lighter-gray: #F4F4F4;
+$light-gray: darken($lighter-gray, 10%);
+$dark-gray: darken($lighter-gray, 60%);
+$darker-gray: darken($lighter-gray, 80%);
+$darkest-gray: darken($lighter-gray, 100%);
+$link-red: #da552f;
+$dropdown-shadow: #E6E6E6;
+$dropdown-light-gray: #999;
