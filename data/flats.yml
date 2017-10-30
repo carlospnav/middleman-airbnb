@@ -1,0 +1,14 @@
+- country: 'France'
+  city: 'Paris'
+  desc: 'Charming room in Montmartre'
+  votes: 4
+
+- country: 'Japan'
+  city: 'Tokyo'
+  desc: 'Small flat in Tokyo'
+  votes: 3
+
+- country: 'UK'
+  city: 'London'
+  desc: 'Nice flat in Picadilly'
+  votes: 5

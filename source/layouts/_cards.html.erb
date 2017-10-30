@@ -1,0 +1,12 @@
+
+
+<div class="container">
+  <h2 class="text-center">Recent flats</h2>
+  <div class="row">
+    <% data.users.each do |user| %>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <%= partial("layouts/card", locals: {user: user, flat: data.flats.find { |flat| flat.city == user.city }}) %>
+      </div>
+    <% end %>
+  </div>
+</div>
